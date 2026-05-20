@@ -2,6 +2,10 @@
 
 # oo sick looking art
 
+# Unfortunately, I don't do stuff that requires .env files
+# atm so this one's getting unused for now.             :(
+
+
 cat << EOF
    _             _       _          
   /_\  _ __  ___| |_ _ _(_)_ _  ___ 
@@ -13,7 +17,9 @@ cat << EOF
 EOF
 
 # Load .env, it's annoying to do by hand
-# What's more annoying is getting shouted at when you don't have .env,so load it conditionally
+
+# What's more annoying is getting shouted at when
+# you don't have .env,so load it conditionally
 
 if [ -f .env ]; then
   echo -e "Found .env\nsourcing it..."
