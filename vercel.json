@@ -1,6 +1,0 @@
-{
-    "framework": null,
-    "installCommand": "./zola.sh",
-    "buildCommand": "./zola.sh build",
-    "outputDirectory": "public"
-}
