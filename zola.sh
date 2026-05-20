@@ -27,7 +27,7 @@ get_zola() {
 
 is_available() {
   if command -v zola > /dev/null 2>&1; then
-    return 0
+    return 2
 
     elif [ -f ./zola ]; then
       return 1
