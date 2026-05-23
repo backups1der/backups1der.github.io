@@ -2,7 +2,7 @@
 title = "Hyprland's Hyprlua Hyprxtravaganza"
 description = "Hyprland + Lua is here. Is it any good and worth the pain I conducted on myself?"
 authors = [ "anins1der" ]
-draft = false
+draft = true
 tags = [ "system,", "hyprland" ]
 categories = [ "Test" ]
 
