@@ -195,6 +195,7 @@ icon = "dowg.png"
 # Any icon name from https://phosphoricons.com can be used.
 links = [
   { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
+  { url = "@/todo/_index.md", name = "To-do list", icon = "list-checks" },
   { url = "@/about/_index.md", name = "About me", icon = "user" },
 ]
 
