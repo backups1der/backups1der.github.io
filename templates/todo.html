@@ -1,5 +1,5 @@
 {% extends "base.html" %}
 
 {% block content %}
-{{- load_data(path="TODO.md") | markdown | safe -}}
+{{- load_data(path="static/TODO.md") | markdown | safe -}}
 {% endblock content %}

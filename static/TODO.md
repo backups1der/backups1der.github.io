@@ -1,6 +1,6 @@
 <figcaption>
   stole this idea from
-  <a href="https://daudix.one/colophon">
+  <a href="https://daudix.one/colophon#to-do">
     daudix.one/colophon
   </a>
 </figcaption>
