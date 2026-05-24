@@ -17,6 +17,8 @@
 
 - [ ] Use [slash pages](https://slashpages.net/), preferably on another subdomain or /slashes
   - [ ] (Preferably) do every /page I can
+    - [x] technically, [/about](/about) and <a id=trigger>/todo</a>
+    already exist, so this kind of counts xd
   - Put it on the sidebar once finished
 
   - [ ] Add a "/editable" or something (independent from slash pages), that allows anyone to edit that page, and then add a link to it in the
@@ -40,3 +42,11 @@
 - [ ] "Maintain" the site (since I'm a contributor of his site now, I can do whatever he wants that I can do :D)
 - [ ] Provide some of the "lost+found" "server" resources for his site if he wants some and needs to
   - ...only if I manage to get some.
+
+{{
+  dialog(title="Sir, please take a great look into the URL bar and tell me where you are."
+  content="After that I suggest you to start thinking about why you would click this button."
+  button="Sincerely, anins1der"
+  name="omg bruv"
+  headless=true)
+}}

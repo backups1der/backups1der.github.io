@@ -1,0 +1,24 @@
+<dialog id="d d{{ nth }}">
+  {% if title %} <h2 style="margin-top: 0.5rem;">{{- title -}}</h2> {% endif %}
+  <p {% if not title %}style="text-align: center;"{% endif %}>{{ content }}</p>
+
+  <button id="ok">{{ button }}</button>
+</dialog>
+
+{% if not headless %}
+  <button id="trigger">{{ name }}</button>
+{% endif %}
+
+<script>
+  const dialog = document.getElementById("d d{{ nth }}");
+  const trigger = document.getElementById("trigger");
+  const ok = document.getElementById("ok");
+
+  trigger.addEventListener("click", () => {
+    dialog.showModal();
+  });
+
+  ok.addEventListener("click", () => {
+    dialog.close();
+  });
+</script>
