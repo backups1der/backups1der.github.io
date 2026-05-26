@@ -8,6 +8,22 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
+  - label: (REWORK) Blog
+    name: blog-rw
+    folder: content/blog
+    create: true
+    format: toml-frontmatter
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    fields:
+      -   name: title
+          label: Title
+          widget: string
+      
+
   - label: Blog
     name: blog
     folder: content/blog
@@ -125,7 +141,7 @@ collections:
         name: body
         widget: markdown
 
-  - label: Nanolog
+  - label: (WIP) Nanolog
     name: nanolog
     folder: content/nanolog
     create: true
