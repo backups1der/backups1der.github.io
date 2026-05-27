@@ -1,7 +1,8 @@
 +++
 title = "Hoem Paeg"
 [extra]
-# scripts = ["home/shy.js"]
+# accent_color = "blue"
+styles = ["background.css"]
 no_header = true
 +++
 
