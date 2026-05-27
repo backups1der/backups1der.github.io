@@ -19,8 +19,8 @@ collections:
         field: draft
         pattern: true
     fields:
-      -   name: title
-          label: Title
+      -   name: fill-this-l8r
+          label: wip, fill this later
           widget: string
       
 
