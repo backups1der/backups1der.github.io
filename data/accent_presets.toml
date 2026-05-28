@@ -1,0 +1,27 @@
+[red]
+light = "hsl(2, 75%, 46%)"
+dark = "hsl(6, 96%, 59%)"
+
+[orange]
+light = "hsl(24, 88%, 45%)"
+dark = "hsl(27, 99%, 55%)"
+
+[yellow]
+light = "hsl(37, 80%, 39%)"
+dark = "hsl(42, 95%, 58%)"
+
+[green]
+light = "hsl(57, 79%, 27%)"
+dark = "hsl(61, 66%, 44%)"
+
+[blue]
+light = "hsl(190, 89%, 25%)"
+dark = "hsl(157, 16%, 58%)"
+
+[purple]
+light = "hsl(333, 34%, 54%)"
+dark = "hsl(344, 47%, 68%)"
+
+[aqua]
+light = "hsl(143, 30%, 37%)"
+dark = "hsl(104, 35%, 62%)"
