@@ -9,7 +9,7 @@ tags = ["blog"]
 
 [extra]
 accent_color = "yellow"
-trigger = "Contains \"depressing\" (or whatever) stuff. I mean... It's not *that* depressing but-- you get the idea."
+trigger = "This blost does **NOT** have a proper writing, and not one of these *silly* posts."
 
 [extra.weather]
 condition = "Sunny"
@@ -23,6 +23,8 @@ audio_button = true
 backlinks = true
 +++
 
-Do you like doing... something? I do, and that's building this... way to escape from my real life (that never feels real at all).
+Do you like doing... something? I do, and that's building this... thing that acts as a way to escape from my real life <small>(that never feels real at all)</small>.
 It's my own <abbr title="PLEASE DON'T ASSUME ANYTHING [[bad]] FROM THIS BLOST PWEASEEE-">"legal" drug</abbr> if that would make sense
-to you,
+to you, one that provides a way to silently push what I am feeling to a tiny corner of the Internet without thinking that much --- at least until
+the effects fade out, at that point I can *suffer through my withdrawal* in peace.
+
