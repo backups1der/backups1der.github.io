@@ -1,0 +1,34 @@
+{% extends "ametrine/templates/404.html" %}
+
+{% block content %}
+{% block picture %}
+<picture id="not-found">
+	<source srcset="{{ get_url(path='/emoji/dowg.png') }}" media="(prefers-reduced-motion: reduce)">
+	<img class="pixels transparent no-hover" alt="Dog getting pet" {%- if config.markdown.lazy_async_image -%}decoding="async" loading="lazy"{%- endif -%} src="{{ get_url(path='dowg-pet.gif') }}">
+</picture>
+{% endblock picture %}
+
+	<h1>Seems like you lost your way</h1>
+
+	<p>The <i>dawg</i> was too busy getting petted, so we couldnt deliver this page to you.
+	<br>
+	Just kidding, we always pet the dog with no conditions. He deserves it, y'know?</p>
+		
+	<p>Ensure that the requested URL is correct and does not contain any typos.{% if
+	config.extra.issues_url %} If you feel that this behavior is unintended, please file an issue using the button
+	below.{% endif %}</p>
+
+	<div class="buttons centered big">
+		<button class="suggested" onclick=history.back()>Go Back</button>
+		<a class="" href="{% include 'partials/home_url.html' %}">Go Home</a>
+		{%- if config.extra.issues_url %}
+		<a class="external" href="{{ config.extra.issues_url }}" rel="{{ rel_attributes }}">File an Issue</a>
+		{%- endif %}
+	</div>
+
+	<br>
+
+	<figcaption>Don't forget to pet the dog</figcaption>
+{% endblock content %}
+
+<!-- the dawg was too busy getting petted, so we couldnt deliver this page to you :3 (404 error) -->
