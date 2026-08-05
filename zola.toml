@@ -2,7 +2,7 @@
 base_url = "/"
 title = "blo(c)k"
 # old one: "Personal blog of someone named anins1der's; about tech, programming, and other shit."
-description = "A place where you can read a crazed 17 yo's unfiltered thoughts and torture yourself while at it."
+description = "A place where you can read a crazed 16 yo's unfiltered thoughts and torture yourself while at it."
 
 theme = "ametrine"
 author = "anins1der"
@@ -227,55 +227,14 @@ webrings = [
   { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/anins1der.com/previous", next = "https://snugnook.org/ring/anins1der.com/next", random = "https://snugnook.org/ring/random" },
 ]
 
-note = "<small>I am designed to not give a fuck about stuff that I don't really care, so I don't give a fuck about my rights being \"rEsErVeD\" or some shit like that. If you want an license then just check [The Unlicense Page](/licence) <span class=spoiler>that is SECRETT!! OOOOO--</span></small>"
+note = "<small>Funny text goes here.</small>"
 
-# [extra.fediverse]
-# Fediverse integration.
-# Used for:
-# - Commenting
-# - Custom emoji shortcode
-# - Website verification
-# - Author attribution
-#
-# Mastodon-powered commenting is based on
-# https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/
-#
-# Values can be overridden in the front-matter, e.g.
-# for multi-author blogs or guest posts.
-
-# host = "indieweb.social"
-# user = "anins1der"
-
-# [extra.analytics]
-# Specify which analytics service you want to use.
-# Supported options: "goatcounter", "umami", and "plausible".
-# service = "umami"
-
-# Unique identifier for tracking.
-# For GoatCounter, this is the code you choose during signup.
-# For Umami, this is the website ID.
-# For Plausible, this is the domain name (e.g. "example.com").
-# Note: Leave this field empty if you're self-hosting GoatCounter.
-# id = "61ac1043-f048-4aee-8eac-28a553cad810"
-
-# Optional: Specify the URL for self-hosted analytics instances.
-# For GoatCounter: Base URL like "https://stats.example.com"
-# For Umami: Base URL like "https://umami.example.com"
-# For Plausible: Base URL like "https://plausible.example.com"
-# Leave this field empty if you're using the service's default hosting.
-# self_hosted_url = "https://stats.daudix.one"
-
-# Optional: For Umami, enable this option if you don't want to collect search
-# parameters from the URL.
-# exclude_search = false
-
-# Optional: For Umami, enable this option if you don't want to collect the hash
-# value from the URL.
-# exclude_hash = false
-
-# Optional: For Umami, enable this option to respect users' Do Not Track (DNT)
-# settings.
-# do_not_track = true
+[extra.badges]
+title = "Badges"
+list = [
+  # { name = "", alt="", url = "", image="" },
+  { name = "snug-nook.gif", url = "https://snugnook.org", image="https://snugnook.org/snug-nook-88x31.gif" },
+]
 
 [extra.debug]
 # Display outlines around all elements

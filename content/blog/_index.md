@@ -1,11 +1,11 @@
 +++
-title = "Blog"
-description = "Bro is not filled with content 😭😭🥀"
-sort_by = "date"
-template = "article_list.html"
-page_template = "article.html"
-paginate_by = 4
-generate_feeds = true
+title = "🚧 Blog 🚧"
+description = "Shit doesn't have any content 😭😭🥀"
+# sort_by = "date"
+# template = "article_list.html"
+# page_template = "article.html"
+# paginate_by = 4
+# generate_feeds = true
 [extra]
 no_header = true
 +++
@@ -27,6 +27,6 @@ no_header = true
 ____0_____0__\|/__@@@@__@@@__________|_\|/__|___\|/__\|/___________|_|_
 {% end %}
 
-# Blog
-
+<strong class=title>(WORK IN PROGRESS)</strong>
+# 🚧 Blog 🚧
 I love blogging, but blogging doesn't. Pretty sad, I know.
