@@ -3,7 +3,6 @@
 pkgs.mkShell {
   packages = with pkgs; [ zola ];
 
-  # LC_ALL=en_US.UTF-8
   shellHook = ''
     cat << EOF
        _             _       _          
@@ -17,9 +16,6 @@ pkgs.mkShell {
       echo -e "Found .env\nsourcing it..."
       set -a && source .env && set +a
     fi
-
-    # Zola + pipe in all args
-    # zola "$@"
 
     zola serve
   '';
