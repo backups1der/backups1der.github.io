@@ -58,8 +58,4 @@ I know these people, and they _probably_ do know me:
     align-items: center;
     padding-inline-start: 0; /* ul content gets padded, but we don't want it here */
   }
-
-  .badge-list > a {
-    
-  }
 </style>
