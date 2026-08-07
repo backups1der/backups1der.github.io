@@ -1,16 +1,15 @@
 ul.badge-list
   display: grid
-  grid-template-rows: 88px
-  grid-template-columns: repeat(auto-fit, minmax(calc(31px + 1rem), 1fr))
+  grid-template-columns: repeat(auto-fit, minmax(calc(88px + 1rem), 1fr))
+  grid-template-rows: repeat(auto-fit, minmax(calc(31px + 1rem), 1fr))
 
   margin: 0
-  align-items: center
   padding-inline-start: 0   // ul content gets padded, but we don't want it here
-
-ul.badge-list > img
   transition: transform var(--transition-bezier)
-  cursor: zoom-in
-  border-radius: 0
 
-ul.badge-list > img:hover
-  transform: scale(2.5)
+  & > img
+    cursor: zoom-in
+    border-radius: 0
+
+    &:hover
+      transform: scale(2.5)
