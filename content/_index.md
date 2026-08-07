@@ -43,6 +43,8 @@ I know these people, and they _probably_ do know me:
   <a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class=pixels alt="pixl_xip"></a>
   <a href="https://reduxflakes.neocities.org"><img src="/badges/redux.webp" class=pixels alt="ReduxFlakes"></a>
   <a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class=pixels alt="futile"></a>
+  <a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net//images/buttons/marchintosh.png" class=pixels alt="my face i"></a>
+  <a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class=pixels alt="Snug Nook"></a>
 </ul>
 
 ***
@@ -51,15 +53,17 @@ I know these people, and they _probably_ do know me:
 [^1]: Wondering why my domain name (thus, the GitHub profile) says "_backups1der_"? After GitHub enforced 2FA for no fucking reason, I lost my original account's 2FA credentials. Hoping that I would get my access back, I created [this account](https://github.com/backups1der), "_backups1der_" that you _all_ know _and love_, or as the account that hosts this site.
 
 <style>
-  .badge-list {
+  ul.badge-list {
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
-    place-items: center;
+    grid-template-rows: repeat(auto-fit, minmax(31px, .5fr));
+    grid-template-columns: repeat(auto-fit, minmax(calc(88px + .25rem), .5fr));
+
+    align-items: center;
+    padding-inline-start: 0; /* ul content gets padded, but we don't want it here */
   }
 
   .badge-list > a {
-    display: block;
+    
   }
 
   .footnote-reference {
