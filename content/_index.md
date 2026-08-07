@@ -36,7 +36,7 @@ About *that*, it was causing problems with my website
 # Badges
 I know these people, and they _probably_ do know me:
 
-<ul class=badge-list>
+<ul class="badge-list center">
   <a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class=pixels alt="Mambuco"></a>
   <a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class=pixels alt="Daudix"></a>
   <a href="https://xip.neocities.org"><img src="/badges/pixl_xip.gif" class=pixels alt="pixl_xip"></a>
@@ -47,15 +47,6 @@ I know these people, and they _probably_ do know me:
   <a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class=pixels alt="Snug Nook"></a>
 </ul>
 
-
-
-<style>
-  ul.badge-list {
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(31px, .5fr));
-    grid-template-columns: repeat(auto-fit, minmax(calc(88px + .25rem), .5fr));
-
-    align-items: center;
-    padding-inline-start: 0; /* ul content gets padded, but we don't want it here */
-  }
-</style>
+<ul><a href="https://snugnook.org">
+  <img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels own-badge" alt="Snug Nook">
+</a></ul>
