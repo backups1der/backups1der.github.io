@@ -7,7 +7,7 @@ no_header = true
 
 <div class="container-fill">  
   
-  # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} anins1der ]</span> <a href="#fn-1" id="fr-1-1" class=".footnote-reference">*</a> { #ey }
+  # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} anins1der ]</span>{ #ey }
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.  
   I am the guy that wrote stuff here (no shit), added a few custom functionalies
   and ~~wrote~~ stole some styling from my friends' blogs that used this very same
@@ -47,10 +47,7 @@ I know these people, and they _probably_ do know me:
   <a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class=pixels alt="Snug Nook"></a>
 </ul>
 
-***
 
-[^1]
-[^1]: Wondering why my domain name (thus, the GitHub profile) says "_backups1der_"? After GitHub enforced 2FA for no fucking reason, I lost my original account's 2FA credentials. Hoping that I would get my access back, I created [this account](https://github.com/backups1der), "_backups1der_" that you _all_ know _and love_, or as the account that hosts this site.
 
 <style>
   ul.badge-list {
@@ -65,9 +62,4 @@ I know these people, and they _probably_ do know me:
   .badge-list > a {
     
   }
-
-  .footnote-reference {
-    display: none;
-    }
-
 </style>
