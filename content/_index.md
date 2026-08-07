@@ -37,14 +37,14 @@ About *that*, it was causing problems with my website
 I know these people, and they _probably_ do know me:
 
 <ul class="badge-list center">
-  <a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class=pixels alt="Mambuco"></a>
-  <a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class=pixels alt="Daudix"></a>
-  <a href="https://xip.neocities.org"><img src="/badges/pixl_xip.gif" class=pixels alt="pixl_xip"></a>
-  <a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class=pixels alt="pixl_xip"></a>
-  <a href="https://reduxflakes.neocities.org"><img src="/badges/redux.webp" class=pixels alt="ReduxFlakes"></a>
-  <a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class=pixels alt="futile"></a>
-  <a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net//images/buttons/marchintosh.png" class=pixels alt="my face i"></a>
-  <a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class=pixels alt="Snug Nook"></a>
+  <a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class="pixels no-hover" alt="Mambuco"></a>
+  <a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class="pixels no-hover" alt="Daudix"></a>
+  <a href="https://xip.neocities.org"><img src="/badges/pixl_xip.gif" class="pixels no-hover" alt="pixl_xip"></a>
+  <a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class="pixels no-hover" alt="pixl_xip"></a>
+  <a href="https://reduxflakes.neocities.org"><img src="/badges/redux.webp" class="pixels no-hover" alt="ReduxFlakes"></a>
+  <a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile"></a>
+  <a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net//images/buttons/marchintosh.png" class="pixels no-hover" alt="my face i"></a>
+  <a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a>
 </ul>
 
 <ul><a href="https://snugnook.org">
