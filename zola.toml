@@ -128,47 +128,6 @@ timezone = "Europe/Istanbul"
 # Shows a QR code that directly jumps to your Mastodon instance, focused on comment writer.
 show_comments_qr = true
 
-# Whether to use Content Security Policy.
-# Keep in mind that although this can potentially increase security,
-# it can break some things, in which case you will need to set a custom policy.
-# csp = [
-#     { directive = "img-src", domains = [
-#         "'self'",
-#         "https:",
-#         "data:",
-#     ] },
-#     { directive = "media-src", domains = [
-#         "'self'",
-#         "https:",
-#     ] },
-#     { directive = "script-src", domains = [
-#         "cloud.umami.is",
-#         "ntfy.anins1der.com",
-#     ] },
-#     { directive = "style-src", domains = [
-#         "'self'",
-#         "'unsafe-inline'",
-#     ] },
-#     { directive = "frame-src", domains = [
-#         "https://player.vimeo.com",
-#         "https://sitwatch.net",
-#         "https://www.youtube-nocookie.com",
-#         "https://vmst.io",
-#     ] },
-#     { directive = "connect-src", domains = [
-#         "api.lanyard.rest",
-#         "discord.com",
-#         "*.umami.dev",
-#         "cloud.umami.is",
-#     ] },
-#     { directive = "base-uri", domains = [
-#         "'none'",
-#     ] },
-#     { directive = "form-action", domains = [
-#         "'none'",
-#     ] },
-# ]
-
 [extra.meta]
 # Variables bellow accept either "true" or a filename.
 # Favicon can also accept an emoji instead of a filename.
