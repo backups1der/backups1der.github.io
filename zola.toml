@@ -188,17 +188,10 @@ show_timestamp = true
 # - random   (optional)
 # "$HOST" can be used to insert config.base_url with "https://" stripped away.
 webrings = [
-  { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/anins1der.com/previous", next = "https://snugnook.org/ring/anins1der.com/next", random = "https://snugnook.org/ring/random" },
+  { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/$HOST/previous", next = "https://snugnook.org/ring/$HOST/next", random = "https://snugnook.org/ring/random" },
 ]
 
 note = "<small>Funny text goes here.</small>"
-
-[extra.badges]
-title = "Badges"
-list = [
-  # { name = "", alt="", url = "", image="" },
-  { name = "snug-nook.gif", url = "https://snugnook.org", image="https://snugnook.org/snug-nook-88x31.gif" },
-]
 
 [extra.debug]
 # Display outlines around all elements
