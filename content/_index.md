@@ -47,9 +47,26 @@ I know these people, and they _probably_ do know me:
   <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
 </ul>
 
-<ul class="badge-list">
-  <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt="intentional link break on a badge"></a></li>
-  <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt='2. "badge"'></a></li>
-  <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt='2. "badge"'></a></li>
-  <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt='2. "badge"'></a></li>
-</ul>
+<small>...I know, "Snug Nook" isn't a human, but I didn't say that was _everyone_ here was a human, lol.</small>
+
+<details>
+  <summary>Add mine to your collection</summary>
+
+  Want to add me to your badges? I'd be honored!
+  You need to copy this next to your badges, or recreate it in the way you have done for others:
+
+  ```html
+  <a href="https://anins1der.is-a.dev">
+    <img src="https://anins1der.is-a.dev/badges/anins1der.gif" alt="anins1der">
+  </a>
+  ```
+
+  After that you should see this appear:
+  <ul class="badge-list">
+    <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt="My badge"></a></li>
+    <li><=== Hover over this!</li>
+  </ul>
+  <small>I don't know why I got excited over what a normal badge pulls off pretty easily. I mean, it took 1-2 days, that's probably why.</small>
+
+  Yes, I know that this is unreadable at this scale, but I didn't had any other idea to make this somewhat unique.
+</details>
