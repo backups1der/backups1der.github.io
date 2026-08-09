@@ -197,6 +197,11 @@ links = [
   { url = "@/blog/_index.md", name = "Blog", icon = "newspaper" },
   { url = "@/todo/_index.md", name = "To-do list", icon = "list-checks" },
   { url = "@/about/_index.md", name = "About me", icon = "user" },
+
+  { name = "Random project(s)", category = [  
+    { url = "https://anins1der.is-a.dev/ametrine-starter/", name = "Ametrine Starter.", icon = "blueprint", new = true },
+  ] },
+
 ]
 
 [extra.footer]
