@@ -43,7 +43,7 @@ Oh if you wanna say anything about me then you can just <abbr title="Script stol
 > > Guess what, I got this thingy up again (lol)
 >
 > ...oh fuck, the next paycheck is here and I don't have jack shit to pay with.  
-> Can I just use the big fat red button (that says "Cancel Instance")?
+> Can I just use the big fat red button (that says "Cancel Instance")?  
 > _uses the big fat red button (that says "Cancel Instance")_.
 
 Well, well, well; look who it is again: It's the <mark>Mr. I'm Not "Rich" Enough To Do This Shit But I Do This Shit Anyways</mark>!
