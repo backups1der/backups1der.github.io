@@ -28,5 +28,18 @@ ____0_____0__\|/__@@@@__@@@__________|_\|/__|___\|/__\|/___________|_|_
 {% end %}
 
 <strong class=title>(WORK IN PROGRESS)</strong>
+
 # 🚧 Blog 🚧
 I love blogging, but blogging doesn't. Pretty sad, I know.
+
+<span class="spoiler">
+
+  Still looking at here for some texts? You're a true champ.  
+  ...or you're here just for _mei_ easter eggs. I appreciate that too.
+
+  mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei  
+  mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei  
+  mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei
+
+  Here _ya_ go ^^
+</span>

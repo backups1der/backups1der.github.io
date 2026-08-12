@@ -7,20 +7,19 @@ no_header = true
 
 <div class="container-fill">  
   
-  # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="my profile photo", big=true) }} anins1der ]</span>{ #ey }
-  Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects.  
+  # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="My profile photo", big=true) }} <abbr title="Meificated Paper Thin Thingy">anins1der</abbr> ]</span>{ #ey }
+  Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects <small>(for real this time)</small>.  
   I am the guy that wrote stuff here (no shit), added a few custom functionalies
-  and ~~wrote~~ stole some styling from my friends' blogs that used this very same
+  and ~~wrote~~ stole some styling from _mei_ friends' blogs that used this very same
   theme.
 
   <div class="buttons center big">
     <a href="#welcome" class="suggested">Welcome ↓</a>
-    <a href="/about#right" class="">About me →</a>
+    <a href="/about#right" class="">About mei →</a>
   </div>
 </div>
 
 ## Welcome to <span class="rainbow">blo(c)k</span> { #welcome }
-
 Yep, this was the coolest name I got from my friends when I asked about this
 blog's name <small>uhhuh, best name I got was literally just _block_
 ._.</small>.
@@ -47,7 +46,7 @@ I know these people, and they _probably_ do know me:
   <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
 </ul>
 
-<small>...I know, "Snug Nook" isn't a human, but I didn't say that was _everyone_ here was a human, lol.</small>
+<small>...I know, "Snug Nook" isn't a human *per se*, but I didn't say that was _everyone_ here was a human, lol.</small>
 
 <details>
   <summary>Add mine to your collection</summary>

@@ -19,11 +19,11 @@ read that doesn't suck, unlike mine :D)</small>
 helping me with this blog (by his repository being on github, and _uh_ also for
 being a cool guy in general lol)
 
-→
-[(...and other) <span class="snug">Snug Nook</span> (members)](https://snugnook.org)
+→ [(...and other) <span class="snug">Snug Nook</span> (members)](https://snugnook.org)
 for being a such big mental help that I could stand on. I know, I didnt really
 talk about my mental wellbeing being shit there but hey, THESE PEOPLE ARE
 <span class="rainbow">**COOL**</span> XD
+  - Especially mei. mei is just, mei and mei is <span class="rainbow">**cool**</span>; just like that.
 
 → [Sparrow99tr_](https://sparrow99.me/) for being a nice guy and approving
 everything in place of my nonexistent brain. _And (uhh)_ he's one of the
