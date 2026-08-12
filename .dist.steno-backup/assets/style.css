@@ -1,0 +1,420 @@
+:root {
+  color-scheme: light dark;
+  --accent: #7760a9;
+  --accent-hover: #5f488f;
+  --accent-fg: #ffffff;
+  --paper: #f3f1eb;
+  --surface: #ebe8e1;
+  --ink: #201f1c;
+  --muted: #706d66;
+  --line: #cfcbc2;
+  --strong-line: #aaa69d;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: var(--accent-dark, #9d86d0);
+    --accent-hover: var(--accent-dark-hover, #b29ddd);
+    --accent-fg: var(--accent-dark-fg, #171519);
+    --paper: #171719;
+    --surface: #1d1d20;
+    --ink: #f0eee9;
+    --muted: #aaa6aa;
+    --line: #343438;
+    --strong-line: #4c4b50;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--paper);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--font-sans);
+  font-size: 0.925rem;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.site-header,
+.site-content,
+.site-footer {
+  width: min(100% - 3rem, 74rem);
+  margin-inline: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5.5rem;
+}
+
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-mark {
+  display: block;
+  width: 2.4rem;
+  height: 0.28rem;
+  background: currentColor;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--muted);
+  font-size: 0.68rem;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
+}
+
+.site-content {
+  min-height: calc(100vh - 10.5rem);
+}
+
+.content-wrapper {
+  width: min(100%, 46rem);
+  margin: 3.8rem auto 7rem;
+}
+
+.page-date {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.61rem;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.14;
+  text-wrap: balance;
+}
+
+h1 {
+  max-width: 18ch;
+  margin: 0 0 0.85rem;
+  font-size: clamp(2.35rem, 6vw, 3.7rem);
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  margin: 2.75rem 0 0.8rem;
+  font-size: 1.8rem;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  margin: 2rem 0 0.7rem;
+  font-size: 1.35rem;
+}
+
+h4,
+h5,
+h6 {
+  margin: 1.5rem 0 0.6rem;
+  font-size: 1.05rem;
+}
+
+p,
+ul,
+ol,
+blockquote,
+pre,
+table,
+figure,
+details,
+dl,
+aside,
+form {
+  margin-block: 1.25rem;
+}
+
+.content-wrapper small {
+  display: block;
+  max-width: 40rem;
+  margin-block: 0.75rem 1.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+strong,
+b,
+dt {
+  font-weight: 600;
+}
+
+ul,
+ol {
+  padding-left: 1.35rem;
+}
+
+li + li {
+  margin-top: 0.3rem;
+}
+
+blockquote {
+  margin-inline: 0;
+  padding: 0.15rem 0 0.15rem 1.25rem;
+  border-left: 2px solid var(--accent);
+  color: var(--muted);
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--font-mono);
+}
+
+:not(pre) > code,
+kbd,
+samp {
+  padding: 0.14em 0.35em;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 0.82em;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 0.78rem;
+  line-height: 1.65;
+}
+
+pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+th,
+td {
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+}
+
+hr {
+  height: 1px;
+  margin: 3rem 0;
+  border: 0;
+  background: var(--line);
+}
+
+img,
+video,
+canvas,
+iframe,
+embed,
+object {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-inline: 0;
+}
+
+figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+details,
+aside,
+fieldset {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  background: transparent;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
+
+dd {
+  margin: 0.2rem 0 1rem;
+  color: var(--muted);
+}
+
+label,
+legend {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+form {
+  display: grid;
+  gap: 0.7rem;
+}
+
+fieldset {
+  display: grid;
+  gap: 0.7rem;
+}
+
+input,
+select,
+textarea,
+button {
+  max-width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ink);
+  background: var(--surface);
+  font: inherit;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  width: fit-content;
+  cursor: pointer;
+}
+
+textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+mark {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+::selection {
+  color: var(--accent-fg);
+  background: var(--accent);
+}
+
+.site-footer {
+  padding-block: 1.5rem 2.5rem;
+  color: var(--muted);
+  font-size: 0.64rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-container p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .site-header,
+  .site-content,
+  .site-footer {
+    width: min(100% - 2rem, 74rem);
+  }
+
+  .header-container {
+    min-height: 4.5rem;
+  }
+
+  .site-nav ul {
+    gap: 1rem;
+  }
+
+  .content-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  h1 {
+    font-size: clamp(2.15rem, 12vw, 3rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

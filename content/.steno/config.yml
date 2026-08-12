@@ -1,0 +1,38 @@
+title: "blo(c)k"
+description: "This is a place where you can read a crazed 16 year old's unfiltered thoughts and torture yourself while at it."
+author: "anins1der"
+
+contentDir: "content"
+output: "dist"
+
+theme: jsr:@steno/theme-minimal   # "./theme"
+shortUrls: true
+
+custom:
+  siteUrl: https://anins1der.is-a.dev
+
+plugins:
+  - package: jsr:@steno/plugin-shiki
+    options:
+      theme: github-dark
+  - package: jsr:@steno/plugin-seo
+    options:
+      siteUrl: https://anins1der.is-a.dev
+      title: "blo(c)k"
+      description: "This is a place where you can read a crazed 16 year old's unfiltered thoughts and torture yourself while at it."
+      authorName: "anins1der"
+  - package: jsr:@steno/plugin-og
+    options:
+      siteName: "blo(c)k"
+      siteUrl: https://anins1der.is-a.dev
+      imageDir: og
+      width: 1200
+      height: 630
+      background: "#504945"
+      accent: "#fe8019"
+      textColor: "#ebdbb2"
+
+collections:
+  blog:
+    sortBy: date
+    order: desc

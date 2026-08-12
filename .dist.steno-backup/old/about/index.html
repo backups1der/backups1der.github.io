@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" style="
+  
+  
+  
+  
+  
+  
+">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About this idiot</title>
+    <meta name="description" content=How does this idiot cant stop being an stupid ass? We don&#39;t have the answer, though we do have a way to send notifications directly to him. />
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-container">
+        <a href="/" class="site-logo">blo(c)k</a>
+        
+      </div>
+    </header>
+
+    <main class="site-content">
+      <article class="content-wrapper">
+        
+        <h1>Hi, my name&#39;s <span class="rainbow">anins1der</span></h1>
+<p>I am a 16 years old idiot who &quot;codes&quot;, draws and writes 24/7 {{ sticker(path=&quot;/emoji/trolley.png&quot;, name=&quot;trolley&quot;) }}</p>
+<h2>Huge thanks to</h2>
+<p>→ <a href="https://daudix.one">Daudix</a> for <a href="https://ametrine.daudix.one">this theme</a>.
+Seriously, check out his blog, it&#39;s awesome! <small>(and --uh-- he has stuff to
+read that doesn&#39;t suck, unlike mine :D)</small></p>
+<p>→ <a href="https://mambuco.dev#down">Mambuco</a> for being a cool guy and (indirectly)
+helping me with this blog (by his repository being on github, and <em>uh</em> also for
+being a cool guy in general lol)</p>
+<p>→
+<a href="https://snugnook.org">(...and other) <span class="snug">Snug Nook</span> (members)</a>
+for being a such big mental help that I could stand on. I know, I didnt really
+talk about my mental wellbeing being shit there but hey, THESE PEOPLE ARE
+<span class="rainbow"><strong>COOL</strong></span> XD</p>
+<p>→ <a href="https://sparrow99.me/">Sparrow99tr_</a> for being a nice guy and approving
+everything in place of my nonexistent brain. <em>And (uhh)</em> he&#39;s one of the
+&quot;<em>medium content creators</em>&quot;, I&#39;d like to one-up this and making him one of the
+&quot;<em>XL-sized content creators</em>&quot; by
+<a href="https://youtube.com/@sparrow99_?sub_confirmation=1">subscribing to his YouTube channel</a>
+<small>(<a href="silahzoru.png">no, I did not get paid for this</a>. Cmon, now sub to
+him-)</small></p>
+<p>→ My friend who suggested the name for this blog (you don&#39;t exist actually, it
+was me all along. Guess <em>multi-person disorder</em> really is a thing, huh?)</p>
+<h2>Send me a message:</h2>
+<p>Oh if you wanna say anything about me then you can just <abbr title="Script stolen from https://azumanga.gay btw">type it below</abbr></p>
+<blockquote>
+<p><del>Oooh my bad, I forgot to mention that my Dokploy installation (<em>somehow</em>) <em>nuked</em> itself a few months ago; so these will be disabled until I get <code>ntfy</code> back up and running. Sorry not sorry {{ sticker(path=&quot;/emoji/dowg.png&quot;, name=&quot;:dowg:&quot;) }}</del><br>Guess what, I got this thingy up again (lol)</p>
+</blockquote>
+<!-- <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass."> --><div class="ntfy-er">
+  <div class="msgbar">
+    <input class="ntfy-msg" id="ntfy-msg" placeholder="Send a notification that directly comes to my laptop!">
+    <button class="submit" onclick="javascript:sendNotification()">funny bnuuy</button>
+  </div>
+</div><script>
+  // stolen from azumanga.gay lel
+
+  // stolen ntfy script
+  function send(message) {
+    let r = new XMLHttpRequest()
+    r.open("POST", "https://ntfy.anins1der.com/website", true)
+    r.setRequestHeader("Content-Type", "text/plain")
+    r.send(message)
+  }
+  // send notification
+  let ntfyInput = document.getElementById("ntfy-msg")
+  function sendNotification() {
+    if (ntfyInput.value.length <= 0) return
+    send(ntfyInput.value)
+    ntfyInput.value = ""
+  }
+</script><figcaption>Psst hey, you can check what others have sent to me <a href="https://ntfy.anins1der.com/website">right here</a>!</figcaption>
+<span class=spoiler><figcaption>...oh and also, <a href="https://daudix.one/home/g.mp4">g</a>-</figcaption></span>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <span class="site-mark" aria-hidden="true"></span>
+        <p>&copy; blo(c)k. Built with Steno.</p>
+      </div>
+    </footer>
+  </body>
+</html>
