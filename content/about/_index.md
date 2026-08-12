@@ -36,20 +36,29 @@ him-)</small>
 → My friend who suggested the name for this blog (you don't exist actually, it
 was me all along. Guess _multi-person disorder_ really is a thing, huh?)
 
-## Send me a message:
+## (you can't) Send me a message (anymore):
 Oh if you wanna say anything about me then you can just <abbr title="Script stolen from https://azumanga.gay btw">type it below</abbr>
 
-> ~~Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}~~  
-> Guess what, I got this thingy up again (lol)
+> > <small>Oooh my bad, I forgot to mention that my Dokploy installation (*somehow*) *nuked* itself a few months ago; so these will be disabled until I get `ntfy` back up and running. Sorry not sorry {{ sticker(path="/emoji/dowg.png", name=":dowg:") }}</small>  
+> > Guess what, I got this thingy up again (lol)
+>
+> ...oh fuck, the next paycheck is here and I don't have jack shit to pay with.  
+> Can I just use the big fat red button (that says "Cancel Instance")?
+
+Well, well, well; look who it is again: It's the <mark>Mr. I'm Not "Rich" Enough To Do This Shit But I Do This Shit Anyways</mark>!
+I just stopped the VPS that ran the ntfy instance. Why? Well... you just read the highlighted text, go figure it from that lol.  
+~~I decided to do that becau-~~ aight, I'm gonna stop this and disable the "message bar".
 
 <!-- <input disabled class="ntfy-msg" id="ntfy-msg" placeholder="Ananas yo' ducks so that I will be free to eat glass."> -->
 
 <div class="ntfy-er">
   <div class="msgbar">
-    <input class="ntfy-msg" id="ntfy-msg" placeholder="Send a notification that directly comes to my laptop!">
-    <button class="submit" onclick="javascript:sendNotification()">funny bnuuy</button>
+    <input class="ntfy-msg" id="ntfy-msg" placeholder="Send a notification that directly comes to my laptop!" disabled>
+    <button class="submit" onclick="javascript:sendNotification()" aria-disabled="true">funny bnuuy</button>
   </div>
 </div>
+
+<span class="spoiler center"><small>...oh and also, <a href="https://daudix.one/home/g.mp4">g</a>-</small></span>
 
 <script>
   // stolen from azumanga.gay lel
@@ -69,6 +78,3 @@ Oh if you wanna say anything about me then you can just <abbr title="Script stol
     ntfyInput.value = ""
   }
 </script>
-
-<figcaption>Psst hey, you can check what others have sent to me <a href="https://ntfy.anins1der.com/website">right here</a>!</figcaption>
-<span class=spoiler><figcaption>...oh and also, <a href="https://daudix.one/home/g.mp4">g</a>-</figcaption></span>
