@@ -1,11 +1,13 @@
 +++
-title = "🚧 Blog 🚧"
-description = "Shit doesn't have any content 😭😭🥀"
-# sort_by = "date"
-# template = "article_list.html"
-# page_template = "article.html"
-# paginate_by = 4
-# generate_feeds = true
+title = "Blog"
+description = "I'll assume that I write here and you'll read what I wrote."
+
+sort_by = "date"
+template = "article_list.html"
+page_template = "article.html"
+paginate_by = 4
+generate_feeds = true
+
 [extra]
 no_header = true
 +++
@@ -27,12 +29,13 @@ no_header = true
 ____0_____0__\|/__@@@@__@@@__________|_\|/__|___\|/__\|/___________|_|_
 {% end %}
 
-<strong class=title>(WORK IN PROGRESS)</strong>
+<strong class=title>(NOT WIP ANYMORE: NEW BLOST IS OUT!!!)</strong>
 
-# 🚧 Blog 🚧
-I love blogging, but blogging doesn't. Pretty sad, I know.
+# Blog
+"I'll assume that I write here and you'll read what I wrote." is what I wrote on the description of this page, but I have now realized that it **is** like that. Go figure.
 
 <span class="spoiler">
+  <p>
 
   Still looking at here for some texts? You're a true champ.  
   ...or you're here just for _mei_ easter eggs. I appreciate that too.
@@ -41,5 +44,6 @@ I love blogging, but blogging doesn't. Pretty sad, I know.
   mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei  
   mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei mei
 
-  Here _ya_ go ^^
+  Here _ya_ go, lol.
+  </p>
 </span>
