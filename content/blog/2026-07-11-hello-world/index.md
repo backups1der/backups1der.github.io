@@ -1,6 +1,7 @@
 +++
 title = "Hello, world."
 description = '...A simple "hello"  to the internet, from a human.'
+updated = 2026-08-24
 
 [taxonomies]
 tags = ["blog"]
