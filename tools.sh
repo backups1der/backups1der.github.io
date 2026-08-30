@@ -57,7 +57,7 @@ case $(gum choose "Site actions" "Git actions") in
   case $(gum choose "Add all changes" "Commit changes" "Push all commits to a branch") in
     "Add all changes") gum confirm "Add all changes?" --affirmative "Yea, go on" --negative "Cancel" && git add . || gum log -flinfo "You cancelled adding changes." ;;
     "Commit changes") gum confirm "Commit changes?" --affirmative "Yea, lemme write a commit name" --negative "Naah" &&  git commit -am "$(gum input --header "Commit message" --placeholder "Just write what has changed")" || gum log -flinfo "You cancelled committing the changes." ;;
-    "Push all commits to a branch") gum confirm "" --affirmative "Yes, captain" --negative "No, captain" && git push origin $(git branch --format "refname:short" | gum choose) || gum log -flinfo "You cancelled pushing the changes." ;;
+    "Push all commits to a branch") gum confirm "You sure about pushing all of the commits?" --affirmative "Yes, captain" --negative "No, captain" && git push origin $(git branch --format "refname:short" | gum choose) || gum log -flinfo "You cancelled pushing the changes." ;;
    esac
   ;;
 esac
