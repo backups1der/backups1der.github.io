@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{- "# " ~ section.title | markdown | safe -}}
+  {{- "<small>" ~ section.description ~ "</small>" | safe -}}
+  {{- section.content | markdown | safe -}}
+
+
+  {% if section.pages %}
+    <hr>
+    {{- section.extra.bbs.header | markdown | safe -}}
+  {% endif %}
+
+  {% if section.pages %}
+  <ul class="entry-list">
+    {% for page in section.pages %}
+      <li> <small class="center">
+        <a href="{{ page.permalink ~ "#→" }}">
+          Entry from {{ page.date | date(format="%B, %d, %Y") }} {% if page.extra.bbs.time %} at {{ page.extra.bbs.time }} (GMT +3) {% endif %}
+        </a>
+      </small>
+
+      {{- "# " ~ page.title | markdown | safe -}}
+      {{- page.content | markdown | safe -}}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if not section.pages %}
+    <p class="center">Couldn't load any entries. Add entries or check <code>bbs.html</code> for any possible errors.</p>
+  {% endif %}
+{% endblock content %}
