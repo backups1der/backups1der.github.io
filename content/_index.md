@@ -44,10 +44,10 @@ I know these people, and they _probably_ do know me:
   <li><a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile"></a></li>
   <li><a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net//images/buttons/marchintosh.png" class="pixels no-hover" alt="my face i"></a></li>
   <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
-  <li><a href="https://glass-eat.party"><img src="https://glass-eat.party/button.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat party"></a></li>
+  <li><a href="https://glass-eat.party"><img src="https://glass-eat.party/button.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat Party"></a></li>
 </ul>
 
-<small>...I know, "Snug Nook" isn't a human *per se*, but I didn't say that was _everyone_ here was a human, lol.</small>
+<small>...I know, "Snug Nook" (or "Glass-eat Party" in this case) isn't a human *per se*, but I didn't say that was _everyone_ here was a human, lol.</small>
 
 <details>
   <summary>Add mine to your collection</summary>
