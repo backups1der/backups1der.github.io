@@ -12,6 +12,9 @@
 # around as much.
 # damn bruh i wrote too much for a wip
 
+# TODO: Polish up BBS entry creator
+# TODO: Make a blost creator too that actually drops you off to your $EDITOR
+
 cat << EOF
    _             _       _          
   /_\  _ __  ___| |_ _ _(_)_ _  ___ 
@@ -42,11 +45,56 @@ if [ -f .env ]; then
   set -a && source .env && set +a
 fi
 
+# This should be written into an env. variable so that when, for example,
+# you got to write the content in 12:00 and the clock hit 12:01; you won't
+# get hit by a error message about the fie not existing, or better yet, create
+# a new file that appears to be empty.
+date=$(echo "$(date -I)")
+time=$(echo "$(date '+%H-%M')")
+dateTime=$(echo "$date-$time")
+
+# Functions for various stuff
+new_blost () {
+  blostTitle=$(gum input --header "Blost's title" --placeholder "I did this: [this]")
+  blostSlug=$(gum input --header "Blost's slug" --placeholder "/i-did-this, without the /")
+  blostDescription=$(gum input --header "Blost's description" --placeholder "Appears under the blost's card, isn't sanitized from MarkdownHTML but some sites sanitize that.")
+  blostTag=$(gum input --header "Blost's (hash)tags" --placeholder "Write a #tag without the hash")
+
+  mkdir ./content/blog/$date-$blostSlug/
+
+  echo -e "+++
+title = '$blostTitle'
+description = '$blostDescription'
+
+taxonomies.tags = ['$blostTag']
+
+[extra]
+toc = true
++++
+" >> ./content/blog/$date-$blostSlug/index.md
+  gum confirm "Edit the entry with $EDITOR?" --affirmative "Yeag" --negative "Nope" && $EDITOR ./content/blog/$date-$blostSlug/index.md || gum log -flinfo "You left the entry as is."
+  gum log -flwarn "If you want a banner, make sure to apply it in the blost's frontmatter!"
+  gum log -flinfo "Successfully created the entry titled \"$blostTitle\" at ./content/blog/$date-$blostSlug/index.md"
+}
+
+new_bbs_entry () {
+  bbsTitle=$(gum input --header "BBS entry's title" --placeholder "Absolute Nevada Experience")
+  bbsContent=$(gum write --header "Entry's content" --placeholder "Somewhere in Nevada there was a grunt hungry for blood... I didn't met him u_u")
+
+  # Don't ask me how I thought of this, or how did that even work 😭
+  echo -e "+++
+title = '$bbsTitle'
++++
+$bbsContent" >> ./content/bbs/$dateTime.md
+  gum confirm "Edit the entry with $EDITOR?" --affirmative "Yeag" --negative "Nope" && $EDITOR ./content/bbs/$dateTime.md || gum log -flinfo "You left the entry as is."
+  gum log -flinfo "Successfully created the entry titled \"$bbsTitle\" at ./content/bbs/$dateTime.md"
+}
+
 case $(gum choose "Site actions" "Git actions") in
   "Site actions")
     case $(gum choose "New blost" "New BBS entry" "Serve site" "Build site" "Check site") in
-      "New blost") echo "I'm still working on a way to create new blosts" ;;
-      "New BBS entry") echo "I need to code the fuctionality to manage BBS entries" ;;
+      "New blost") gum confirm "Create new blost for $(date '+%d %B %Y (%A)')?" --affirmative "Yep, go on" --negative "Fuhh nah" && new_blost || gum log -flinfo "You cancelled creating a new blost" ;;
+      "New BBS entry") gum confirm "Create new BBS entry for $(date '+%d %B %Y (%A)')?" --affirmative "Yep, go on" --negative "Nevermind" && new_bbs_entry || gum log -flinfo "You cancelled creating a new BBS entry";;
       "Serve site") zola serve ;;
       "Build site") zola build ;;
       "Check site") zola check ;;
