@@ -16,7 +16,8 @@
     {% for page in section.pages %}
       <li> <small class="center">
         <a href="{{ page.permalink ~ "#→" }}">
-          Entry from {{ page.date | date(format="%B, %d, %Y") }} {% if page.extra.bbs.time %} at {{ page.extra.bbs.time }} (GMT +3) {% endif %}
+          Entry from {{ page.date | date(format=("%B %d, %Y, %R")) }} (GMT +3)
+
         </a>
       </small>
 

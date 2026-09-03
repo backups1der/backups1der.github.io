@@ -50,8 +50,8 @@ fi
 # get hit by a error message about the fie not existing, or better yet, create
 # a new file that appears to be empty.
 date=$(echo "$(date -I)")
-time=$(echo "$(date '+%H-%M')")
-dateTime=$(echo "$date-$time")
+time=$(echo "$(date '+%H:%M:%S')")
+dateTime=$(echo "$date"T"$time"Z)
 
 # Functions for various stuff
 new_blost () {
