@@ -15,7 +15,7 @@
 - [ ] Adapt [Daudix](https://daudix.one)'s implementation of (now removed) [Sveltia CMS configuration](https://github.com/daudix/daudix.one/commit/ffc800a6b17a0df0206c57770782fcd930baa8a7) to latest layout of YAML Ametrine and Zola has set up
 
 
-- [ ] Fix tools.sh
+- [x] Fix tools.sh
   - While at it, figure out these for [BBS](/bbs):
     - [ ] Put _those_ Previous/Next buttons on the blosts, *maybe* rotate it vertically while at it.
     - [ ] Figure out a way to make blosts not require a title.

@@ -10,10 +10,6 @@
 # know, launch Zola, take a commit, or
 # create a BBS entry without fiddling
 # around as much.
-# damn bruh i wrote too much for a wip
-
-# TODO: Polish up BBS entry creator
-# TODO: Make a blost creator too that actually drops you off to your $EDITOR
 
 cat << EOF
    _             _       _          
