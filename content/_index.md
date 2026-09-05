@@ -44,6 +44,7 @@ I know these people, and they _probably_ do know me:
   <li><a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile"></a></li>
   <li><a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net/images/buttons/marchintosh.png" class="pixels no-hover" alt="my face i"></a></li>
   <li><a href="https://aeronook.eu"><img src="https://aeronook.eu/flat8831.webp" class="pixels no-hover" alt="Areo Nook (not to be confused with Snug Nook)"></a></li>
+  <li><a href="https://zachy.cc"><img src="https://zachy.cc/badges/zachy.gif" class="pixels no-hover" alt="Zach, a bit opinionated but still a cool guy. He makes cool stuff, at least."></a></li>
   <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
   <li><a href="https://glass-eat.party"><img src="https://glass-eat.party/button.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat Party"></a></li>
 </ul>
