@@ -38,7 +38,7 @@ I know these people, and they _probably_ do know me:
 <ul class=badge-list>
   <li><a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class="pixels no-hover" alt="Mambuco"></a></li>
   <li><a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class="pixels no-hover" alt="Daudix"></a></li>
-  <li><a href="https://xip.neocities.org"><img src="/badges/pixl_xip.gif" class="pixels no-hover" alt="pixl_xip"></a></li>
+  <li><a href="https://xip.neocities.org"><img src="/badges/pixl_xip.png" class="pixels no-hover" alt="pixl_xip"></a></li>
   <li><a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class="pixels no-hover" alt="pixl_xip"></a></li>
   <li><a href="https://reduxflakes.neocities.org"><img src="/badges/redux.webp" class="pixels no-hover" alt="ReduxFlakes"></a></li>
   <li><a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile"></a></li>
