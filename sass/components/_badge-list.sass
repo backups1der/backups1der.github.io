@@ -1,8 +1,12 @@
 ul.badge-list
-  display: flex
-  // position: relative
+  display: grid
+  position: relative
   flex-wrap: wrap
   justify-content: center
+
+  grid-template-columns: repeat(auto-fill, 88px)
+  grid-auto-rows: 31px
+
   
   gap: .5rem
   margin-block-start: 2rem
@@ -16,7 +20,7 @@ ul.badge-list
 
     padding-inline-start: 0
     margin-block: 0
-    
+
     & > img
       cursor: zoom-in
 
