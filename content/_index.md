@@ -50,6 +50,7 @@ I know these people, and they _probably_ do know me:
   <li><a href="https://aeronook.eu"><img src="https://aeronook.eu/flat8831.webp" class="pixels no-hover" alt="Areo Nook (not to be confused with Snug Nook)"></a></li>
   <li><a href="https://zachy.cc"><img src="https://zachy.cc/badges/zachy.gif" class="pixels no-hover" alt="Zach, a bit opinionated but still a cool guy. He makes cool stuff, at least."></a></li>
   <li><a href="https://axeni.de"><img src="https://axeni.de/images/88x31.gif" class="pixels no-hover" alt="Axenide (peak)"></a></li>
+  <li><a href="https://michi.onl"><img src="/badges/michi.onl.gif" class="pixels no-hover" alt="Michi"></a></li>
   <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
   <li><a href="https://glass-eat.party"><img src="https://glass-eat.party/button.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat Party"></a></li>
 </ul>
