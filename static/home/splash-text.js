@@ -2,7 +2,7 @@ var splashPool = [
   'Written fresh from Neovim!',
   'Contents written by a 16-years-old Turkish random, and not sleeping until 3 AM',
   'Ananas duck!',
-  '- ⇐ This is a human\'s em-dash',
+  '— ⇐ This is a human\'s em-dash',
   'Put ananas in Your Gananas and Janana [imagine a line break here] Wananas',
   'What a lame nickname, "anins1der". You like Microslop Insider that much?',
   'Uses Penguin OS',
