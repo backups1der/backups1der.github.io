@@ -2,11 +2,15 @@
 title = "Hoem Paeg"
 [extra]
 styles = ["background.css"]
+scripts = ["home/splash-text.js"]
 no_header = true
 +++
 
 <div class="container-fill">  
-  
+  <figcaption id="splash-text">
+    Splash text goes here
+  </figcaption>
+ 
   # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="My profile photo", big=true) }} <abbr title="Meificated Paper Thin Thingy">anins1der</abbr> ]</span>{ #ey }
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects <small>(for real this time)</small>.  
   I am the guy that wrote stuff here (no shit), added a few custom functionalies
