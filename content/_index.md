@@ -10,8 +10,9 @@ no_header = true
   <figcaption id="splash-text">
     Loading a splash text... if you have JavaScript enabled, that is. I can't do anything if that's the case u_u
   </figcaption>
- 
+
   # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="My profile photo", big=true) }} <abbr title="Meificated Paper Thin Thingy">anins1der</abbr> ]</span>{ #ey }
+
   Welcome to my little corner of the internet, where I share my shitty thoughts, ideas and projects <small>(for real this time)</small>.  
   I am the guy that wrote stuff here (no shit), added a few custom functionalies
   and ~~wrote~~ stole some styling from _mei_ friends' blogs that used this very same
