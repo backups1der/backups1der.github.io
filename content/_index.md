@@ -1,14 +1,14 @@
 +++
 title = "Hoem Paeg"
 [extra]
-styles = ["background.css"]
+styles = ["home/background.css"]
 scripts = ["home/splash-text.js"]
 no_header = true
 +++
 
 <div class="container-fill">  
   <figcaption id="splash-text">
-    Loading a splash text... if you have JavaScript enabled, that is. I can't do anything if that's the case u_u
+    <span class="spoiler">Loading a splash text... if you have JavaScript enabled, that is. I can't do anything if that's the case u_u</span>
   </figcaption>
 
   # Ey, I'm <span class="rainbow"> [ {{ sticker(path="/assets/parappa.png", name="My profile photo", big=true) }} <abbr title="Meificated Paper Thin Thingy">anins1der</abbr> ]</span>{ #ey }

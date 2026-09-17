@@ -1,14 +1,23 @@
 +++
 title = "About this idiot"
-description = "How does this idiot cant stop being an stupid ass? We don't have the answer, though we do have a way to send notifications directly to him."
+description = "How does this idiot cant stop being an stupid ass? We do not have the answer."
 generate_feeds = true
 
 [extra]
 no_header = true
+styles = "about/style.css"
+# scripts = "about/status.js"
 +++
 
 # Hi, my name's <span class="rainbow">anins1der</span>
 I am a 16 years old idiot who "codes", draws and writes 24/7 {{ sticker(path="/emoji/trolley.png", name="trolley") }}
+
+<!-- ## Discord status -->
+<!---->
+<!-- <div id="testing" class="container discord-stats"> -->
+<!---->
+<!--   # {{ sticker(path="emoji/trolley.png", name="trolley", big=true) }} my discord username -->
+<!-- </div> -->
 
 ## Huge thanks to
 → [Daudix](https://daudix.one) for [this theme](https://ametrine.daudix.one).

@@ -22,6 +22,18 @@
       </small>
 
       {{- "# " ~ page.title | markdown | safe -}}
+      {#
+
+      {% if page.extra.accent_color %}
+        {{- page.extra.accent_color | markdown | safe -}}
+      {% endif %}
+      {{- section.extra.accent_color | markdown | safe -}}
+
+      #}
+
+      {% if page.description %}
+        <small> {{- page.description | safe -}} </small>
+      {% endif %}
       {{- page.content | markdown | safe -}}
       </li>
     {% endfor %}

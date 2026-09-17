@@ -29,11 +29,11 @@ render_emoji = true
 # Whether to do syntax highlighting
 # Theme can be customised by customizing stuff below.
 style = "class"
-light_theme = "monokai-pro-light"
-dark_theme = "monokai-pro"
+dark_theme = "gruvbox"
+light_theme = "gruvbox-light"
 extra_themes = [
-  "themes/ametrine/giallo/themes/monokai-pro-light.json",
-  "themes/ametrine/giallo/themes/monokai-pro.json",
+  "giallo/themes/gruvbox.json",
+  "giallo/themes/gruvbox-light.json",
 ]
 
 [search]
@@ -192,7 +192,7 @@ webrings = [
   { name = "Snug Ring", url = "https://snugnook.org/ring", previous = "https://snugnook.org/ring/anins1der.is-a.dev/previous", next = "https://snugnook.org/ring/anins1der.is-a.dev/next", random = "https://snugnook.org/ring/random" },
 ]
 
-note = "<small>Funny text goes here.</small>"
+note = "<small>stuff here</small>"
 
 [extra.debug]
 # Display outlines around all elements

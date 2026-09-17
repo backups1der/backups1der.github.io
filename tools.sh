@@ -52,9 +52,9 @@ dateTime=$(echo "$date"T"$time"Z)
 # Functions for various stuff
 new_blost () {
   blostTitle=$(gum input --header "Blost's title" --placeholder "I did this: [this]")
-  blostSlug=$(gum input --header "Blost's slug" --placeholder "/i-did-this, without the /")
-  blostDescription=$(gum input --header "Blost's description" --placeholder "Appears under the blost's card, isn't sanitized from MarkdownHTML but some sites sanitize that.")
-  blostTag=$(gum input --header "Blost's (hash)tags" --placeholder "Write a #tag without the hash")
+  blostSlug=$(gum input --header $blostTitle --placeholder "Blost's slug: the-blosts-slug")
+  blostDescription=$(gum input --header $blostTitle --placeholder "Blost's description: Appears under the blost's card, isn't sanitized from MarkdownHTML but some sites sanitize that.")
+  blostTag=$(gum input --header $blostTitle --placeholder "Blost's (hash)tag: write a #tag without the hash")
 
   mkdir ./content/blog/$date-$blostSlug/
 
@@ -75,11 +75,13 @@ toc = true
 
 new_bbs_entry () {
   bbsTitle=$(gum input --header "BBS entry's title" --placeholder "Absolute Nevada Experience")
-  bbsContent=$(gum write --header "Entry's content" --placeholder "Somewhere in Nevada there was a grunt hungry for blood... I didn't met him u_u")
+  bbsDescription=$(gum input --header $bbsTitle --placeholder "Leave empty to keep it blank")
+  bbsContent=$(gum write --header $bbsTitle --placeholder "Somewhere in Nevada there was a grunt hungry for blood... I didn't met him u_u")
 
   # Don't ask me how I thought of this, or how did that even work 😭
   echo -e "+++
 title = '$bbsTitle'
+description = '$bbsDescription'
 +++
 $bbsContent" >> ./content/bbs/$dateTime.md
   gum confirm "Edit the entry with $EDITOR?" --affirmative "Yeag" --negative "Nope" && $EDITOR ./content/bbs/$dateTime.md || gum log -flinfo "You left the entry as is."
