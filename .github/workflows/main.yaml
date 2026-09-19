@@ -13,8 +13,8 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  cancel-in-progress: true
+# concurrency:
+#   cancel-in-progress: true
 
 jobs:
   main:
