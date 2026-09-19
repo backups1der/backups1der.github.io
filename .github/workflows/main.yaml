@@ -46,14 +46,14 @@ jobs:
         uses: actions/cache@v6
         with:
           path: ~/.install-action/
-          key: install-action-${{ runner.os }}-zola-{{ env.ZOLA_VERSION }}
+          key: install-action-${{ runner.os }}-zola-${{ env.ZOLA_VERSION }}
 
 
       - name: Check the cache and get zola if not
         if: steps.check-cache.outputs.cache-hit != 'true'
         uses: taiki-e/install-action@v2
         with:
-          tool: zola@ {{ env.ZOLA_VERSION }}
+          tool: zola@${{ env.ZOLA_VERSION }}
 
       - name: Build the website
         run: zola build --base-url "${{ steps.pages.outputs.base_url }}"
