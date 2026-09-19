@@ -1,5 +1,8 @@
 name: Build Zola website and deploy to GitHub Pages
 
+env:
+  ZOLA_VERSION: 0.22.1
+
 on:
   push:
     branches:
@@ -11,11 +14,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  main:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,12 +32,28 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: echo this repository's Pages domain
+      - name: "DEBUG: echo this repository's Pages domain"
         run: echo "${{ steps.pages.outputs.base_url }}"
 
-      - uses: taiki-e/install-action@v2
+      - name: "DEBUG: echo zola's path and version"
+        run: |
+          echo "which zola"
+          echo "zola --version"
+
+
+      - name: Cache zola if it isn't
+        id: check-cache
+        uses: actions/cache@v6
         with:
-          tool: zola@0.22.1
+          path: ~/.install-action/
+          key: install-action-${{ runner.os }}-zola-$ZOLA_VERSION
+
+
+      - name: Check the cache and get zola if not
+        if: steps.check-cache.outputs.cache-hit != 'true'
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@$ZOLA_VERSION
 
       - name: Build the website
         run: zola build --base-url "${{ steps.pages.outputs.base_url }}"
@@ -46,5 +64,4 @@ jobs:
           path: public
 
       - name: Deploy artifact to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4

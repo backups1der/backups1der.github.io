@@ -41,19 +41,20 @@ About *that*, it was causing problems with my website
 I know these people, and they _probably_ do know me:
 
 <ul class=badge-list>
-  <li><a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class="pixels no-hover" alt="Mambuco"></a></li>
-  <li><a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class="pixels no-hover" alt="Daudix"></a></li>
-  <li><a href="https://xip.neocities.org"><img src="/badges/pixl_xip.png" class="pixels no-hover" alt="pixl_xip"></a></li>
-  <li><a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class="pixels no-hover" alt="pixl_xip"></a></li>
-  <li><a href="https://reduxflakes.neocities.org"><img src="/badges/redux.webp" class="pixels no-hover" alt="ReduxFlakes"></a></li>
-  <li><a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile"></a></li>
+  <li><a href="https://mambuco.dev"><img src="https://mambuco.dev/badges/mambuco.gif" class="pixels no-hover" alt="Mambuco, now recently has transitioned to a new website written in Astro!"></a></li>
+  <li><a href="https://daudix.one"><img src="https://daudix.one/badges/badges/daudix-rainbow.gif" class="pixels no-hover" alt="Daudix, oh Daudix.This guy\'s lowkey why I can and am doing this *having fun while painfully getting hurt and maintaining a website* thing. I cannot thank Daudix enough man."></a></li>
+  <li><a href="https://xip.neocities.org"><img src="/badges/pixl_xip.png" class="pixels no-hover" alt='You can define pixl_xip as "A walking :tacopleading:", as Daudix has said.'></a></li>
+  <li><a href="https://kevadesu.github.io"><img src="https://kevadesu.github.io/88x31.gif" class="pixels no-hover" alt='WHY THE FUCK DID I FORGOT TO UPDATE THIS ALT TEXT AND LEFT IT AS "pixl_xip"???!?!?'></a></li>
+  <li><a href="https://reduxflakes.nekoweb.org"><img src="/badges/redux.webp" class="pixels no-hover" alt="ReduxFlakes, albeit cool, is a cool dude. I think. I mean he's chill-"></a></li>
+  <li><a href="https://futile.eu"><img src="https://futile.eu/buttons/futile.png" class="pixels no-hover" alt="futile."></a></li>
   <li><a href="https://ivanmarkov.net"><img src="https://ivanmarkov.net/images/buttons/marchintosh.png" class="pixels no-hover" alt="my face i"></a></li>
-  <li><a href="https://aeronook.eu"><img src="https://aeronook.eu/flat8831.webp" class="pixels no-hover" alt="Areo Nook (not to be confused with Snug Nook)"></a></li>
+  <li><a href="https://aeronook.eu"><img src="https://aeronook.eu/green8831.webp" class="pixels no-hover" alt="Areo Nook (not to be confused with Snug Nook)"></a></li>
   <li><a href="https://zachy.cc"><img src="https://zachy.cc/badges/zachy.gif" class="pixels no-hover" alt="Zach, a bit opinionated but still a cool guy. He makes cool stuff, at least."></a></li>
   <li><a href="https://axeni.de"><img src="https://axeni.de/images/88x31.gif" class="pixels no-hover" alt="Axenide (peak)"></a></li>
-  <li><a href="https://michi.onl"><img src="/badges/michi.onl.gif" class="pixels no-hover" alt="Michi"></a></li>
-  <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="Snug Nook"></a></li>
-  <li><a href="https://glass-eat.party"><img src="https://glass-eat.party/button.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat Party"></a></li>
+  <li><a href="https://immijs.dev"><img src="https://immjs.dev/88x31s/immjs.dev.gif" class="pixels no-hover" alt="Informei, or immijs; is a cool person."></a></li>
+  <li><a href="https://michi.onl"><img src="/badges/michi.onl.gif" class="pixels no-hover" alt="Michi's site, filled to the brim with content thatis definitelly better than mine."></a></li>
+  <li><a href="https://snugnook.org"><img src="https://snugnook.org/snug-nook-88x31.gif" class="pixels no-hover" alt="I'm a Snug Nooker. Or a Nug Snooker. Or a snooker. Oh wait, I'm not a snooker. That sucks."></a></li>
+  <li><a href="https://glass-eat.party"><img src="/badges/glass-eat.party.gif" class="pixels no-hover" alt="I'm a proud member of Glass-eat Party"></a></li>
 </ul>
 
 <small>...I know, "Snug Nook" (or "Glass-eat Party" in this case) isn't a human *per se*, but I didn't say that was _everyone_ here was a human, lol.</small>
@@ -71,7 +72,7 @@ I know these people, and they _probably_ do know me:
   ```
 
   After that you should see this appear:
-  <ul class="badge-list">
+  <ul class="badge-list flex">
     <li><a href="https://anins1der.is-a.dev"><img src="/badges/anins1der.gif" class="pixels no-hover" alt="My badge"></a></li>
     <li><=== Hover over this!</li>
   </ul>
@@ -79,3 +80,7 @@ I know these people, and they _probably_ do know me:
 
   Yes, I know that this is unreadable at this scale, but I didn't had any other idea to make this somewhat unique.
 </details>
+
+<style>
+
+</style>
