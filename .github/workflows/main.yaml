@@ -48,6 +48,10 @@ jobs:
           path: ~/.install-action/
           key: install-action-${{ runner.os }}-zola-${{ env.ZOLA_VERSION }}
 
+      - name: "DEBUG: Check cached zola"
+        run: |
+          ls -la ~/.install-action/bin/ || true
+          ~/.install-action/bin/zola --version || true
 
       - name: Check the cache and get zola if not
         if: steps.check-cache.outputs.cache-hit != 'true'
