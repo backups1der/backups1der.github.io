@@ -55,7 +55,7 @@ jobs:
           tool: zola@${{ env.ZOLA_VERSION }}
 
       - name: Add install-action to PATH
-        if: steps.check-cache.outputs.cache-hit = 'true'
+        if: steps.check-cache.outputs.cache-hit == 'true'
         run: echo "$HOME/.install-action/bin" >> "$GITHUB_PATH"
 
       - name: Build the website
